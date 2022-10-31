@@ -1,0 +1,99 @@
+
+
+
+
+
+body { background-color: #d7e5f0; 
+		font-family: Times New Roman;
+		font-size: 15pt;
+	}
+
+	h1 { font-family: 'Raleway', cursive;
+		text-align: center;
+		font-size: 80px;
+		font-weight: bolder; }
+
+	h2 {font-family: 'Raleway', sans-serif;
+		text-align: center;
+		font-size: 50px;
+		font-weight: normal;}
+
+	h3 {font-family: 'Raleway', sans-serif;
+		font-size: 40px;
+		font-variant: small-caps;}
+
+
+
+	ul { list-style-position: inside;}
+
+
+	.box { width:1000px;
+			height: 250px;
+			margin-top: 50px;
+			margin-left: 200px;
+			padding-bottom: 60px;
+			padding-top: 5px;
+			background-color: white;
+			opacity:60%;
+	}
+
+	.container {
+		display: grid;
+		grid-column-gap: 20px;
+	}
+
+	#one {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	#two {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+	#three {
+		grid-row-start: 1;
+		grid-row-end: 2;
+		grid-column-start: 3;
+		grid-column-end: 4;
+	}
+
+	#four {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	#five {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+	#six {
+		grid-row-start: 2;
+		grid-row-end: 3;
+		grid-column-start: 3;
+		grid-column-end: 4;
+	}
+
+	.item {
+		justify-content: center;
+	}
+
+	.text-block {  }
+	#h2 { font-family: 'Raleway', sans-serif;
+		text-align: center;
+		font-size: 50px;
+		font-weight: normal; }
+
+	img { float:right;
+		width: 500px;
+		height: 600px; }
